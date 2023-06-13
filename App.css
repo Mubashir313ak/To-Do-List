@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+.input{
+  color: gray;
+  font-size: 20px;
+  border-radius: 20px;
+margin-left: 50px;
+}
+.add{
+  color: brown;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Source Code Pro', monospace;
+}
+.delete{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Source Code Pro', monospace;
+}
+@media (max-width: 670px) {
+  .App {
+    width: 100%;
+  }
+}
